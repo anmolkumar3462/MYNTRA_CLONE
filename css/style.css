@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  cursor: url('../img/logo.png'),auto;
+}
+nav{
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  box-shadow: 0px 4px 12px rgb(239, 239, 239);
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+figure img{
+  margin: 0px 60px;
+}
+.list{
+  height: 100%;
+}
+.list ul{
+  height: 100%;
+  /* border: 1px solid green; */
+  display: flex;
+  list-style: none;
+}
+.list ul li{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+  cursor: pointer;
+  position: sticky;
+  /* padding: 0 5px; */
+}
+nav>.list>ul>li:nth-child(1):hover{
+  border-bottom: 1px solid crimson;
+}
+ul li a{
+  text-decoration: none;  
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: small;
+  color: #282c3f;
+  font-weight: 00;
+  font-style: normal;
+}
+.search{
+  display: flex;
+  background-color: #f5f5f6;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+
+form input{
+  width: 100%;
+  border: none;
+  text-align: left;
+  background-color: #f5f5f6;
+  /* padding-right:350px; */
+  outline: none;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon{
+  padding: 0px 15px;
+}
+.icon span{
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+
+/* Header section Start */
+.main header{
+  margin-top: 20px;
+}
+
+.offer{
+  display: flex;
+}
+.cards , .cards_deals{
+  display: flex;
+}
+.cards_deals{
+  width: 100%;
+  height: 330px;
+}
+.card_deal{
+  width: 100%;
+  height: 320px;
+}
+.cards img{
+  width: 100%;
+  height: 18.438rem;
+}
+footer{
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  background-color: #fafbfc;
+}
+.list1{
+  margin: 0px 40px;
+}
+.lst li , .list1 > span {
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  color: #caccd1;
+  list-style: none;
+  font-size: 12px;
+  font-weight: 200;
+  margin: 5px 0px;
+}
+.lst li a{
+  color: #696b79;
+}
+.list1 > h5{
+  font-family: "Montserrat", sans-serif;
+  margin: 15PX 0px;
+}
+.icn{
+  display: flex;
+}
+.icn > i{
+  margin: 0px 5px;
+}
+.a_i{
+  display: flex;
+}
+.a_i img{
+  margin: 0px 5px;
+}
+.pic{
+  display: flex;
+  margin: 30px 0px;
+  font-family: "Montserrat", sans-serif;
+}
+.pic > img{
+  width: 50px;
+  height: 40px;
+  margin: 0 7px;
+}
+.pic span{
+  color: #696b79;
+}
+/* Header section End */
